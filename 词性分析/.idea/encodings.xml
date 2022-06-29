@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Data/NewAddEmotionalword/NewNegative.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Data/NewAddEmotionalword/NewNeutral.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Data/NewAddEmotionalword/NewPositive.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Data/TestingData/TestingData.csv" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Data/negative.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Data/outsideUserDic.txt" charset="GB18030" />
+    <file url="file://$PROJECT_DIR$/Data/outsideUserDic_sub.txt" charset="GB18030" />
+    <file url="file://$PROJECT_DIR$/nullTest.csv" charset="GB18030" />
+  </component>
+</project>
