@@ -7,7 +7,7 @@ from openpyxl import Workbook
 filename = 'shuju1.csv'
 
 def checkip(ip):
-    r = requests.get('https://api.ip138.com/ip/?ip=%s&datatype=jsonp&token=dff61deed9de1e6fb31a5a606565c04c' % ip)
+    r = requests.get('https://api.ip138.com/ip/?ip=%s&datatype=jsonp&token=7e49bdb8f9a7916c61b5ec01b81f367a' % ip)
     if r.json()['ret'] == 'ok':
         i = r.json()['data']
         country = i[0]

@@ -5,7 +5,7 @@ from pyecharts import options as opts
 from pyecharts.charts import Map
 from pyecharts.faker import Faker
 
-filename = 'shuju12.csv'
+filename = 'aaa.csv'
 
 with open(filename, 'rt', encoding='UTF-8') as raw_data:
     readers = reader(raw_data, delimiter=',')
@@ -15,10 +15,11 @@ with open(filename, 'rt', encoding='UTF-8') as raw_data:
     # print(data.shape)
     # print(data[:,2])
     # print(data[:,3])
-    place=data[:,7]
+    place=data[:,17]
 
 
 values = place
+
 value_cnt = {}  # 将结果用一个字典存储
 # 统计结果
 
@@ -38,7 +39,7 @@ china_data = [list(z) for z in zip (lables,counts)]
 C = Map()
 #调用数据
 C.add("ip来源",china_data,'china')
-C.set_global_opts(visualmap_opts=opts.VisualMapOpts(max_=100))
+C.set_global_opts(visualmap_opts=opts.VisualMapOpts(max_=100),title_opts=opts.TitleOpts(title="大学老师ip地址所在地"))
 #设置保存的位置
-C.render('t1.html')
+C.render('t4.html')
 C.render_notebook()
